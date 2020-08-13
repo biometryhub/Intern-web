@@ -1,0 +1,101 @@
+---
+title: "Alec McCallum - 2020 Bachelor of Agricultural Science Graduate"
+date: 2020-07-06
+
+tags: ['Scotland', 'Glennfinnan Viaduct', 'Eilean Donan Castle']
+author: "Alec McCallum"
+---
+My name is Alec McCallum and I was a third-year Agricultural Science student when I completed the three week Biometry Hub Internship in July 2020. I grew up in the mid-north of South Australia and the Adelaide Hills, and started my Bachelor’s degree at the University of Adelaide in 2018, after a gap year spent travelling and working. I am passionate about agriculture and am highly interested in working in Plant Science in the research field. My two main hobbies are basketball and travelling; I have played basketball since I was seven, and have travelled to over twenty countries in Europe, the Pacific and South America.
+
+
+**Education**
+- Secondary
+  - Kings Baptist Grammar School, 2016
+  - 2016 House Captain
+  - ATAR: 97.55
+- Tertiary
+  - University of Adelaide
+  - Third year in a Bachelor of Agricultural Science
+  - GPA: 6.650
+
+**Prizes and Scholarships**
+- Commonwealth Scholarships Program (2018-2020)
+- New Columbo Plan Scholarship (2019)
+- Lois Harris Agricultural Bureau Scholarship (2018)
+- Daniel Livingston Prize (Level 1)
+- Faculty of Sciences Outstanding Academic Achievement Award (2018, 2019)
+
+
+**Professional Work Experience**
+- SARDI (Agronomy Group, Soil Borne Diseases Group)
+  - Casual: November 2018 - March 2019, November 2019 - January 2019
+    - Assisted in research work such as harvesting, spraying threshing, data collection and seed packing.
+- Australian Grains Technology
+  - Full time: November-December 2016, December-February 2017/18
+    - Assisted in harvest research work such as harvesting, sample processing and greenhouse work.
+- Marcroft Grains Pathology
+  - Full time: August 2017 for 2 weeks
+    - Assisted in black leg disease in canola research work including inoculation and transplanting.
+- Drury’s Orchards
+  - Casual: June-November 2017
+    - General labour, produce grading and packing, orchard and tractor work.
+- Inglewood Estate Winery
+  - Casual: 2013-2019
+    - Casual Weekend work, more regular during school holidays. Responsible for maintenance and management of vineyard and general labour.
+
+**Professional Internships**
+
+Biometry Hub (University of Adelaide)
+July 2020
+3-week internship
+Completed courses in R and Rmarkdown
+Learnt to create experimental designs and complete statistical analysis in R 
+Volunteering
+January 2019
+1 month in Sigatoka, Fiji on the Project Everest FarmEd Venture
+-spent the month visiting local villages and government officials and conducting interviews about their farming practices
+January 2016 
+2 weeks at a Church Mission in Port Moresby, Papua New Guinea
+-spent time fixing cupboards, taps, staircases, lights, etc.
+-socialising with local people to experience their culture
+October Every Year
+Volunteer at the Melrose Show 
+-help to set up marquees, stalls, pavilions, tables and chairs
+-help run the Sheep Racing event
+-clean up after the Show, taking down marquees, removing rubbish, etc.
+January 2015
+Paracombe CFS Station
+2 Days during Sampson Flat Bushfire
+-food preparation and serving for firefighters
+Practical Skills
+ 
+•	Microsoft suite (Word, Excel, Powerpoint)
+•	Rstudio and Rmarkdown
+•	Genstat
+•	First Aid Certificate (2018)
+•	Driver’s license (Class C)
+ 
+Personal Skills
+ 
+•	Fast Learner
+•	Honest and Reliable 
+•	Self-motivated
+•	Flexible
+•	Time Management
+•	Good Communicator
+•	Hard Working
+ 
+Hobbies
+Basketball- I currently play basketball twice a week, two games. This has enhanced my ability to effectively work and communicate as a team to overcome a challenge.
+I played basketball for the Norwood Flames Basketball Club from 2009-2019 and played socially from 2006 to present.
+
+Professional Referees
+Kenton Porker
+Senior Researcher, SARDI
+Phone: 0403617501
+Email: kenton.porker@sa.gov.au 
+Brenton Trenorden
+Manager of Inglewood Estate Winery, Business Consultant 
+Ph: 04 1159 8366
+Email: brenton@brentontrenorden.com.au 
+
