@@ -28,7 +28,7 @@ googleAnalytics = ""
 
   # Description and meta data for the search engines
   author = "Biometry Interns"
-  description = "Bilberry Premium Theme for Hugo."
+  description = "Website for biomtery hub interns."
   keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts"
 
   # How many articles should be displayed at once?
@@ -115,17 +115,19 @@ googleAnalytics = ""
     # all icons https://fontawesome.com/icons?d=gallery&m=free
     # brand icons https://fontawesome.com/icons?d=gallery&s=brands&m=free
     socialMediaLinks = [
-      { link = "https://twitter.com/TheRealLednerb", icon = "fab fa-twitter" },
-      { link = "https://github.com/Lednerb", icon = "fab fa-github" },
+      { link = "https://twitter.com/SAGISouth", icon = "fab fa-twitter" },
+      { link = "https://github.com/biometryhub", icon = "fab fa-github" },
+      # { link = "biometryhub@adelaide.edu.au", icon = "fas fa-inbox"},
+      # { link = "+61 8 8313 2246", icon = "fas fa-phone-alt"}
     ]
 
     # credits line configuration
-    copyrightBy = "by Lednerb"
-    copyrightUseCurrentYear = false  # set to true to always display the current year in the copyright
+    copyrightBy = "by Biometry Hub"
+    copyrightUseCurrentYear = true  # set to true to always display the current year in the copyright
     copyrightYearOverride = "2017"
-    copyrightUrl = "https://github.com/Lednerb"
-    creditsText = "Bilberry Hugo Theme"
-    creditsUrl = "https://github.com/Lednerb/bilberry-hugo-theme"
+    copyrightUrl = "https://sciences.adelaide.edu.au/agriculture-food-wine/research/agricultural-science/biometry-hub"
+    creditsText = "Biometry Hub Internship"
+    creditsUrl = "https://github.com/biometryhub"
 
 
 # customize your available languages for your multi-langual site
