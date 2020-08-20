@@ -11,8 +11,6 @@ This internship was intense but it was also very rewarding. I really enjoyed thi
 - Week 2 summary can be found at **[Week 2 Summary](/presentations/Zhaohan/Week-2-Summary.docx)**
 - Week 3 summary can be found at **[Week 3 Summary](/presentations/Zhaohan/Week-3-Summary.docx)**
 
-
-
 **Education**
 - Secondary
   - Adelaide High School (2014-2017)
