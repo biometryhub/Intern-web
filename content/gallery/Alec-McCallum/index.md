@@ -2,7 +2,6 @@
 title: "Alec McCallum - 2020 Bachelor of Agricultural Science Graduate"
 date: 2020-07-06
 
-tags: ['Scotland', 'Glennfinnan Viaduct', 'Eilean Donan Castle']
 author: "Alec McCallum"
 ---
 My name is Alec McCallum and I was a third-year Agricultural Science student when I completed the three week Biometry Hub Internship in July 2020. I grew up in the mid-north of South Australia and the Adelaide Hills, and started my Bachelor’s degree at the University of Adelaide in 2018, after a gap year spent travelling and working. I am passionate about agriculture and am highly interested in working in Plant Science in the research field. My two main hobbies are basketball and travelling; I have played basketball since I was seven, and have travelled to over twenty countries in Europe, the Pacific and South America.
@@ -18,32 +17,14 @@ My name is Alec McCallum and I was a third-year Agricultural Science student whe
   - Third year in a Bachelor of Agricultural Science
   - GPA: 6.650
 
-**Prizes and Scholarships**
+**Past Prizes and Scholarships**
 - Commonwealth Scholarships Program (2018-2020)
-- New Columbo Plan Scholarship (2019)
 - Lois Harris Agricultural Bureau Scholarship (2018)
-- Daniel Livingston Prize (Level 1)
+- New Columbo Plan Scholarship (2019)
 - Faculty of Sciences Outstanding Academic Achievement Award (2018, 2019)
+- Daniel Livingston Prize (Level 1)
 
-
-**Professional Work Experience**
-- SARDI (Agronomy Group, Soil Borne Diseases Group)
-  - Casual: November 2018 - March 2019, November 2019 - January 2019
-    - Assisted in research work such as harvesting, spraying threshing, data collection and seed packing.
-- Australian Grains Technology
-  - Full time: November-December 2016, December-February 2017/18
-    - Assisted in harvest research work such as harvesting, sample processing and greenhouse work.
-- Marcroft Grains Pathology
-  - Full time: August 2017 for 2 weeks
-    - Assisted in black leg disease in canola research work including inoculation and transplanting.
-- Drury’s Orchards
-  - Casual: June-November 2017
-    - General labour, produce grading and packing, orchard and tractor work.
-- Inglewood Estate Winery
-  - Casual: 2013-2019
-    - Casual Weekend work, more regular during school holidays. Responsible for maintenance and management of vineyard and general labour.
-
-**Professional Internships**
+**Agriculture-Related Work Experience/Internships**
 - Biometry Hub (University of Adelaide)
   - July 2020 (3 Weeks)
     - Completed courses in R and Rmarkdown
@@ -65,6 +46,23 @@ My name is Alec McCallum and I was a third-year Agricultural Science student whe
   - January 2015 (2 Days) 
     - Food preparation and serving for firefighters
 
+**Employment History**
+- SARDI (Agronomy Group, Soil Borne Diseases Group)
+  - Casual: November 2018 - March 2019, November 2019 - January 2019
+    - Assisted in research work such as harvesting, spraying threshing, data collection and seed packing.
+- Australian Grains Technology
+  - Full time: November-December 2016, December-February 2017/18
+    - Assisted in harvest research work such as harvesting, sample processing and greenhouse work.
+- Marcroft Grains Pathology
+  - Full time: August 2017 for 2 weeks
+    - Assisted in black leg disease in canola research work including inoculation and transplanting.
+- Drury’s Orchards
+  - Casual: June-November 2017
+    - General labour, produce grading and packing, orchard and tractor work.
+- Inglewood Estate Winery
+  - Casual: 2013-2019
+    - Casual Weekend work, more regular during school holidays. Responsible for maintenance and management of vineyard and general labour.
+
 **Practical Skills**
 - Microsoft suite (Word, Excel, Powerpoint)
 - Rstudio and Rmarkdown
@@ -73,7 +71,6 @@ My name is Alec McCallum and I was a third-year Agricultural Science student whe
 - Driver’s license (Class C)
  
 **Personal Skills**
- 
 - Fast Learner
 - Honest and Reliable 
 - Self-motivated
@@ -82,13 +79,13 @@ My name is Alec McCallum and I was a third-year Agricultural Science student whe
 - Good Communicator
 - Hard Working
  
-**Hobbies**
+**Extracurricular Activities**
 - Basketball
   - Played completitively for the Norwood Flames Basketball Club from 2009-2019
   - Played socially from 2006 to present
     - This has enhanced my ability to effectively work and communicate as a team to overcome a challenge.
  
-**Professional Referees**
+**References**
 - Kenton Porker
   - Senior Researcher, SARDI
   - Phone: 0403617501
