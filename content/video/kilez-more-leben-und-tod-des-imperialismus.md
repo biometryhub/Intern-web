@@ -10,7 +10,7 @@ youtube: "M7IjJiZUutk"
 vimeo: ""       # https://vimeo.com/239830182 -> "239830182"
 ---
 Kilez More is a great Austrian musician.
-Most of his songs have a political background and have amazing lyrics!
+Most of his songs have a political background and have amazing lyric
 
 <!--more-->
 

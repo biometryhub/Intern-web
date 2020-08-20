@@ -56,10 +56,10 @@ googleAnalytics = ""
 
   # Header configuration
     # your subtitle if you want to use any
-    subtitle = "School of agriculture, food and wine, University of Adelaide, Australia"
+    subtitle = "School of Agriculture, Food and Wine, University of Adelaide, Australia"
 
     # if you want to use gravatar for the header image
-    gravatarEMail = "code@lednerb.de"
+    gravatarEMail = "featuredImage.png"
 
     # set an path to the image file you want to use | overwrites gravatar
     customImage = "gravatar.jpg"
@@ -89,7 +89,7 @@ googleAnalytics = ""
     # customize the date format | only works if momentjs is disabled | only works with English month names
     # you can customize it with the options you find here:
     # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
-    dateFormat = "2006-01-02"
+    dateFormat = "02-01-2006"
 
     # display the estimated reading time for an article
     showReadingTime = false
@@ -135,10 +135,10 @@ googleAnalytics = ""
 [Languages]
   [Languages.en]
     weight = 1
-  [Languages.de]
-    weight = 2
-    title = "Mein cooler neuer Blog"
-    subtitle = "Hallo Welt! Dies ist der epischste Untertitel aller Zeiten."
+  #[Languages.de]
+   # weight = 0
+    #title = "Mein cooler neuer Blog"
+    #subtitle = "Hallo Welt! Dies ist der epischste Untertitel aller Zeiten."
 
 # don't change anything below
 [taxonomies]
