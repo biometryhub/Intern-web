@@ -44,58 +44,57 @@ My name is Alec McCallum and I was a third-year Agricultural Science student whe
     - Casual Weekend work, more regular during school holidays. Responsible for maintenance and management of vineyard and general labour.
 
 **Professional Internships**
+- Biometry Hub (University of Adelaide)
+  - July 2020 (3 Weeks)
+    - Completed courses in R and Rmarkdown
+    - Learnt to create experimental designs and complete statistical analysis in R 
+- Project Everest farmEd Venture in Sigatoka, Fiji
+  - January 2019 (1 Month)
+    - Visiting local villages and government officials 
+    - Conducting interviews about their farming practices
+- Church Mission in Port Moresby, Papu New Guinea
+  - January 2016 (2 Weeks)
+    - spent time fixing cupboards, taps, staircases, lights, etc.
+    - socialising with local people to experience their culture
+- Volunteering at Melrose Show 
+  - October (Annually)
+    - Help to set up marquees, stalls, pavilions, tables and chairs
+    - Help run the Sheep Racing event
+    - Clean-up Crew
+- Volunteer at Paracombe CFS Station during Sampson Flat Bushfire
+  - January 2015 (2 Days) 
+    - Food preparation and serving for firefighters
 
-Biometry Hub (University of Adelaide)
-July 2020
-3-week internship
-Completed courses in R and Rmarkdown
-Learnt to create experimental designs and complete statistical analysis in R 
-Volunteering
-January 2019
-1 month in Sigatoka, Fiji on the Project Everest FarmEd Venture
--spent the month visiting local villages and government officials and conducting interviews about their farming practices
-January 2016 
-2 weeks at a Church Mission in Port Moresby, Papua New Guinea
--spent time fixing cupboards, taps, staircases, lights, etc.
--socialising with local people to experience their culture
-October Every Year
-Volunteer at the Melrose Show 
--help to set up marquees, stalls, pavilions, tables and chairs
--help run the Sheep Racing event
--clean up after the Show, taking down marquees, removing rubbish, etc.
-January 2015
-Paracombe CFS Station
-2 Days during Sampson Flat Bushfire
--food preparation and serving for firefighters
-Practical Skills
+**Practical Skills**
+- Microsoft suite (Word, Excel, Powerpoint)
+- Rstudio and Rmarkdown
+- Genstat
+- First Aid Certificate (2018)
+- Driver’s license (Class C)
  
-•	Microsoft suite (Word, Excel, Powerpoint)
-•	Rstudio and Rmarkdown
-•	Genstat
-•	First Aid Certificate (2018)
-•	Driver’s license (Class C)
+**Personal Skills**
  
-Personal Skills
+- Fast Learner
+- Honest and Reliable 
+- Self-motivated
+- Flexible
+- Time Management
+- Good Communicator
+- Hard Working
  
-•	Fast Learner
-•	Honest and Reliable 
-•	Self-motivated
-•	Flexible
-•	Time Management
-•	Good Communicator
-•	Hard Working
+**Hobbies**
+- Basketball
+  - Played completitively for the Norwood Flames Basketball Club from 2009-2019
+  - Played socially from 2006 to present
+    - This has enhanced my ability to effectively work and communicate as a team to overcome a challenge.
  
-Hobbies
-Basketball- I currently play basketball twice a week, two games. This has enhanced my ability to effectively work and communicate as a team to overcome a challenge.
-I played basketball for the Norwood Flames Basketball Club from 2009-2019 and played socially from 2006 to present.
-
-Professional Referees
-Kenton Porker
-Senior Researcher, SARDI
-Phone: 0403617501
-Email: kenton.porker@sa.gov.au 
-Brenton Trenorden
-Manager of Inglewood Estate Winery, Business Consultant 
-Ph: 04 1159 8366
-Email: brenton@brentontrenorden.com.au 
+**Professional Referees**
+- Kenton Porker
+  - Senior Researcher, SARDI
+  - Phone: 0403617501
+  - Email: kenton.porker@sa.gov.au 
+- Brenton Trenorden
+  - Manager of Inglewood Estate Winery, Business Consultant 
+  - Phone: 04 1159 8366
+  - Email: brenton@brentontrenorden.com.au 
 
