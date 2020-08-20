@@ -6,6 +6,7 @@ author: "Alec McCallum"
 ---
 My name is Alec McCallum and I was a third-year Agricultural Science student when I completed the three week Biometry Hub Internship in July 2020. I grew up in the mid-north of South Australia and the Adelaide Hills, and started my Bachelor’s degree at the University of Adelaide in 2018, after a gap year spent travelling and working. I am passionate about agriculture and am highly interested in working in Plant Science in the research field. My two main hobbies are basketball and travelling; I have played basketball since I was seven, and have travelled to over twenty countries in Europe, the Pacific and South America.
 
+[Read about my experience with the University of Adelaide Biometry Hub internship](/post/testing/)!
 
 **Education**
 - Secondary
@@ -49,19 +50,19 @@ My name is Alec McCallum and I was a third-year Agricultural Science student whe
 **Employment History**
 - SARDI (Agronomy Group, Soil Borne Diseases Group)
   - Casual: November 2018 - March 2019, November 2019 - January 2019
-    - Assisted in research work such as harvesting, spraying threshing, data collection and seed packing.
+  - Assisted in research work such as harvesting, spraying threshing, data collection and seed packing.
 - Australian Grains Technology
   - Full time: November-December 2016, December-February 2017/18
-    - Assisted in harvest research work such as harvesting, sample processing and greenhouse work.
+  - Assisted in harvest research work such as harvesting, sample processing and greenhouse work.
 - Marcroft Grains Pathology
   - Full time: August 2017 for 2 weeks
-    - Assisted in black leg disease in canola research work including inoculation and transplanting.
+  - Assisted in black leg disease in canola research work including inoculation and transplanting.
 - Drury’s Orchards
   - Casual: June-November 2017
-    - General labour, produce grading and packing, orchard and tractor work.
+  - General labour, produce grading and packing, orchard and tractor work.
 - Inglewood Estate Winery
-  - Casual: 2013-2019
-    - Casual Weekend work, more regular during school holidays. Responsible for maintenance and management of vineyard and general labour.
+  - Casual: 2013-2019 (Casual Weekend work, more regular during school holidays)
+  - Responsible for maintenance and management of vineyard and general labour.
 
 **Practical Skills**
 - Microsoft suite (Word, Excel, Powerpoint)
