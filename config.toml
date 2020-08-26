@@ -143,8 +143,8 @@ googleAnalytics = ""
 # don't change anything below
 [taxonomies]
   author   = "author"
-  tag      = "tags"
-  category = "categories"
+#  tag      = "tags"
+#  category = "categories"
 
 [outputs]
   home = [ "HTML", "JSON", "RSS" ]
