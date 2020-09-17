@@ -1,12 +1,12 @@
 ---
-title: "Past Intern - Zhaohan (Elijah) Luo - 2020 Bachelor of Agricultural Science Graduate"
+title: "Zhaohan (Elijah) Luo - 2020 Bachelor of Agricultural Science Graduate"
 date: 2020-07-06
 
 author: "Zhaohan Luo"
 ---
-My name is Zhaohan Luo and I was a third-year Agricultural Science student when I completed the three week Biometry Hub Internship in July 2020. I was born and raised in Xi'an, China, and moved to Adelaide, Australia in 2014 as an international student in high school. I started my Bachelor’s degree at the University of Adelaide in 2018, immediately after high school graduation. I am very interested in agriculture because I grew up in cities and never had a real opportunity to study about the environment and nature. I believe agriculture is the future of humanity under the pressure of fast expanding world population. I am passionate about sports, especially in swimming and surfing. I am currently a member of Henley Surf Lifesaving Club and a swimming coach at Seaton Swim Centre. I am also a member of Adelaide University Boat Club.
+My name is Zhaohan (Elijah) and I was a third-year Agricultural Science student when I completed the three week Biometry Hub Internship in July 2020. I was born and raised in Xi'an, China, and moved to Adelaide, Australia in 2014 as an international student in high school. I started my Bachelor’s degree at the University of Adelaide in 2018, immediately after high school graduation. I am very interested in agriculture because I grew up in cities and never had a real opportunity to study about the environment and nature. I believe agriculture is the future of humanity under the pressure of fast expanding world population. I am passionate about sports, especially in swimming and surfing. I am currently a member of Henley Surf Lifesaving Club and a swimming coach at Seaton Swim Centre. I am also a member of Adelaide University Boat Club.
 
-This internship was intense but it was also very rewarding. I really enjoyed this experiecne and I have developed many computing skills through it. Here are my weekly summaries and final presentation of this internship!
+This internship was intense but rewarding. I really enjoyed this experiecne and I have developed many computing skills through it. Here are my weekly summaries and final presentation of this internship!
 - **[Week 1 Summary](/presentations/Zhaohan/Week-1-Summary.pdf)**
 - **[Week 2 Summary](/presentations/Zhaohan/Week-2-Summary.pdf)**
 - **[Week 3 Summary](/presentations/Zhaohan/Week-3-Summary.pdf)**
@@ -49,7 +49,7 @@ This internship was intense but it was also very rewarding. I really enjoyed thi
 - Rstudio and Rmarkdown
 - Github
 - Genstat
-- Multilingual (Speak and wirte fluent English and Chinese. Basic French)
+- Multilingual (Speak and wirte fluent English and Chinese. Basic French and Japanese)
 - CPR/First Aid Certificate (2018)
 - Driver’s license (Class C)
  
