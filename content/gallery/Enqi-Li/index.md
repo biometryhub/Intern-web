@@ -32,13 +32,16 @@ My name is Enqi. I was a Chinese international student finishing the second year
 -	Glasshouse and field experimental operation and data collection.
 
 **EMPLOYMENT HISTORY**
-- Research assistant in the biometry hub (The University of Adelaide). 5/08/2019 – 30/08/2019
+- Research assistant in the biometry hub (The University of Adelaide).
+- 5/08/2019 – 30/08/2019
   - Based on the previous studying experience, I have designed a field sampling application and a data analysis application for agricultural scientist in a precision agriculture project to collect, storage, analysis the data efficiently.
 
-- Research officer in SARDI (South Australian Research and Development Institute), Primary industries and regions SA, Government of South Australia。 02/09/2019 – 30/06/2020
+- Research officer in SARDI (South Australian Research and Development Institute), Primary industries and regions SA, Government of South Australia. 
+- 02/09/2019 – 30/06/2020
   - This job contributed to the development of IDM strategies for diseases of importance on the Lower Eyre Peninsula, and enhanced the agronomy/pathology capacity for the Southern Region by developing the skills and knowledge of the Regional Research Agronomist, including experience in conducting field research, analysing and interpreting data and reporting on project findings.
 
-- Graduate Agronomist in Asian Vegetable Farm. 01/07/2020 – ongoing
+- Graduate Agronomist in Asian Vegetable Farm.
+- 01/07/2020 – ongoing
   - This job provides an opportunity to apply my previous plant research and development knowledge and skills to the hydroponics and greenhouse production system on a real farm production business. It also enriches my view of Australian agricultural industries. This vegetable farm is one of the largest Asian vegetable hydroponic and greenhouse farms in South Australia.
   - As a production agronomist, my roles include
     - Learning and understanding crop life cycle, pests and diseases.
@@ -68,7 +71,6 @@ and minimising herbicide drift in the farm)
   - The GRDC-SARDI strategic partnership also supports snail research on the Eyre Peninsula. Under the supervision of Dr Kaye Ferguson, I assisted with data collection from video surveillance cameras recording snail activity on the EP. This was also an important training opportunity which assists with the provision of valuable data and foster interaction with growers on the Eyre Peninsula.
 
 **REFEREES**
-
 - Dr Olena Kravchuk
   - Supervisor of the Biometry Hub, University of Adelaide
   - Mobile: +61 407 790 138
