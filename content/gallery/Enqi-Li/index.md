@@ -70,13 +70,3 @@ and minimising herbicide drift in the farm)
 - Snail monitoring
   - The GRDC-SARDI strategic partnership also supports snail research on the Eyre Peninsula. Under the supervision of Dr Kaye Ferguson, I assisted with data collection from video surveillance cameras recording snail activity on the EP. This was also an important training opportunity which assists with the provision of valuable data and foster interaction with growers on the Eyre Peninsula.
 
-**REFEREES**
-- Dr Olena Kravchuk
-  - Supervisor of the Biometry Hub, University of Adelaide
-  - Mobile: +61 407 790 138
-  - Email: olena.kravchuk@adelaide.edu.au
-
-- Dr Glenn McDonald
-  - Associate Professor of School of Agricultural, Food and Wine, University of Adelaide
-  - Telephone: +61 831 373 58
-  - Email: glenn.mcdonald@adelaide.edu.au
