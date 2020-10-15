@@ -9,26 +9,3 @@ My name is Xinyuan. I was in my third year of Bachelor of Agricultural Science w
 My internship presentation is here. Have a Look!
 
 - **[Final Presentation](/presentations/Xinyuan/Internship-Presentation.pdf)**
-
-**Education**
-
-- Tertiary
-  - University of Adelaide (2016-2018)
-  - Bachelor of Agricultural Science
-  
-- Post-grad
-  - University of Adelaide (2020-2021)
-  - Honour's Degree in Biometry
-
-**Agriculture-Related Work Experience/Internships**
-- Biometry Hub (University of Adelaide)
-  - 02/07/2018-20/07/2018
-    - Learnt how to use R Language
-- Assisting Vineyard Management 
-
-**Practical Skills**
-- Microsoft suite (Word, Excel, Powerpoint)
-- Rstudio 
-- SPSS
-- Genstat
-- Multilingual (Speak and wirte fluent English and Chinese)
