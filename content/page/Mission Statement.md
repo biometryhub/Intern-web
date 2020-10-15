@@ -1,5 +1,5 @@
 ---
-title: "About Us"
+title: "Mission Statement"
 date: 2020-07-06
 ---
 The Biometry Hub group of the University of Adelaide specialises in statistical methodologies for field trials, comparative and multi-factorial experiments and field sampling in application to agriculture, horticulture, oenology and food sciences.
