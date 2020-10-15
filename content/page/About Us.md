@@ -9,4 +9,3 @@ Our research has a strong focus on statistical genetics including linkage map co
 We collaborate internationally and nationally and maintain a strong interest in best practice statistics in the Southern region in Australia.
 
 The Biometry Hub starts out and supports communities of practice with solid statistical foundations through open collaborative communication with researchers and practitioners by providing tailored professional development opportunities and facilitating multi-disciplinary dialogues with user-friendly software applications.
-
