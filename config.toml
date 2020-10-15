@@ -17,6 +17,12 @@ googleAnalytics = ""
 # Enable / Disable open link with a new tab.
 [blackfriday]
   hrefTargetBlank = false
+  
+  
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
   # Custom CSS / JS modules that will be imported by the template.
@@ -39,8 +45,8 @@ googleAnalytics = ""
 
   # Enable / Disable algolia search
   algolia_search    = true
-  algolia_appId     = "Y2C4RWMPXW"
-  algolia_apiKey    = "50ea7f8c41c0ad233926e0be2b769ed1"
+  algolia_appId     = "JEM5B6WHHX"
+  algolia_apiKey    = "e00fe80e07e3f51c3a30e4d3b389b93e"
   algolia_indexName = "default-content"
     # Set this option to false if you want to search within all articles in all languages at once
     algolia_currentLanguageOnly = true
@@ -68,14 +74,14 @@ googleAnalytics = ""
     overlayIcon = "fa-home"
 
     # always display the top navigation (with pages and search) on non-mobile screens
-    permanentTopNav = false
+    permanentTopNav = true
 
     # always display the top navigation when scrolling
     # works only with permanentTopNav = true
     stickyNav = false
 
     # show a language chooser in the header
-    showHeaderLanguageChooser = true
+    showHeaderLanguageChooser = false
 
   # Content configuration
     # Enable an optional pinned page to display at the top of the index
@@ -106,7 +112,7 @@ googleAnalytics = ""
     amountCategoriesInFooter = 7
 
     # show a language chooser in the footer
-    showFooterLanguageChooser = true
+    showFooterLanguageChooser = false
 
     # social media profile urls for the footer links
     showSocialMedia = true
@@ -122,7 +128,7 @@ googleAnalytics = ""
     ]
 
     # credits line configuration
-    copyrightBy = "by Biometry Hub"
+    copyrightBy = "Biometry Hub"
     copyrightUseCurrentYear = true  # set to true to always display the current year in the copyright
     copyrightYearOverride = "2017"
     copyrightUrl = "https://sciences.adelaide.edu.au/agriculture-food-wine/research/agricultural-science/biometry-hub"
@@ -143,8 +149,8 @@ googleAnalytics = ""
 # don't change anything below
 [taxonomies]
   author   = "author"
-#  tag      = "tags"
-#  category = "categories"
+  tag      = "tags"
+  category = "categories"
 
 [outputs]
   home = [ "HTML", "JSON", "RSS" ]
