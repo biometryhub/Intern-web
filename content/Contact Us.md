@@ -1,5 +1,5 @@
 ---
-title: "Contac Us"
+title: "Contact Us"
 date: 2020-10-15
 ---
 <div class="container">

@@ -1,5 +1,5 @@
 title = "Biometry Hub Internship"
-baseURL = ""
+baseURL = "https://biometryhubinterns.netlify.app/"
 theme = "bilberry-hugo-theme"
 
 # Generate the robots.txt file for SEO
@@ -25,10 +25,6 @@ googleAnalytics = ""
       unsafe = true
 
 [params]
-  [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
   # Files are relative to the static/ directory or a URL.
   # Files are imported in the order they appear here, after
   # theme.css and theme.js, respectively.
@@ -77,7 +73,7 @@ googleAnalytics = ""
     overlayIcon = "fa-home"
 
     # always display the top navigation (with pages and search) on non-mobile screens
-    permanentTopNav = true
+    permanentTopNav = false
 
     # always display the top navigation when scrolling
     # works only with permanentTopNav = true
