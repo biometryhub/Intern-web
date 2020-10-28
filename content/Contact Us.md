@@ -14,11 +14,12 @@ weight: 1
     <label for="reason">Reason for contact:</label>
     <select id="reason" name="reason">
       <option value="apply">I would like to apply for the internship</option>
-      <option value="eoi">I would like to express interest in other oportunities</option>
+      <option value="eoi">I would like to express interest in other opportunities</option>
       <option value="other">Other reasons</option>
     </select>
     <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px""width:300px"></textarea>
+    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+    <br>
     <input type="submit" value="Submit">
   </form>
 </div>
