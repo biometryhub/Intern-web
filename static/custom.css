@@ -2,7 +2,21 @@
 @media only screen and (max-width: 550px) {
   .bilberry-hugo-theme article {
     border-radius: 0;
-  }
+    }
+
+  .bilberry-hugo-theme header .logo {
+    border-radius: 3px;
+    width: 45px;
+    height: 50px;
+    }
+
+  .bilberry-hugo-theme header .titles h3 {
+    font-size: 2.75rem;
+    }
+
+  .bilberry-hugo-theme header .titles {
+    margin-left: 1.5rem;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -10,6 +24,19 @@
   .bilberry-hugo-theme article {
     border-radius: 0;
   }
+  .bilberry-hugo-theme header .logo {
+    border-radius: 3px;
+    width: 45px;
+    height: 50px;
+    }
+
+  .bilberry-hugo-theme header .titles h3 {
+    font-size: 2.75rem;
+    }
+
+  .bilberry-hugo-theme header .titles {
+    margin-left: 1.5rem;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) 
@@ -54,4 +81,17 @@ input[type=email], input[type=number], input[type=password], input[type=search],
     margin-left: auto;
     margin-right: auto;
     border: 3px solid #0cccc2;
+}
+
+.bilberry-hugo-theme header {
+    background-color: #a2ea5f;
+    color: #2b9a9a;
+}
+
+.bilberry-hugo-theme nav {
+    background: #1d7fc7;
+}
+
+.bilberry-hugo-theme {
+    background-color: #b8e5ff;
 }
