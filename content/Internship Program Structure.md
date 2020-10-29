@@ -1,6 +1,7 @@
 ---
 title: "Internship Program Structure"
 date: 2020-10-15
+weight: 3
 ---
 **Week 1**
 - Introduction To R Workshop
