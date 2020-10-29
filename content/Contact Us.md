@@ -4,7 +4,7 @@ date: 2020-10-15
 weight: 6
 ---
 <div class="container">
-  <form name="contact"method="POST" data-netlify="true">
+  <form name="contact" method="POST" data-netlify="true">
     <label for="fname">Your Name</label>
     <input type="text" id="fname" name="name" placeholder="Your name..">
     <label for="StudentID">Student ID</label>
