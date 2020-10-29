@@ -81,6 +81,20 @@ googleAnalytics = ""
 
     # show a language chooser in the header
     showHeaderLanguageChooser = false
+    
+  #[[menu.main]]
+  #  title = "About"
+  #  link = "/about/"
+  #  weight = 7
+  #  hasChildren = true
+
+  [[menu.main]]
+    title = "Item 1"
+    link = "/about/item1"
+    parent = "About"
+    weight = 7
+      
+    
 
   # Content configuration
     # Enable an optional pinned page to display at the top of the index

@@ -7,6 +7,34 @@
 {{ end }}
     <div class="container">
         <ul class="topnav">
+            <!---{{ range .Site.Params.menu.main }}
+            <li>
+              {{ if .hasChildren }}
+                  <a href="#">{{ .Name }}</a>
+                  <ul>
+                    {{ range .Children }}
+                        {{ if .Params.excludeFromTopNav }}
+                            {{/* Do nothing */}}
+                        {{ else if and (isset .Params "link") (ne .Params.link "") }}
+                            <li><a href="{{ .Params.link | relURL }}" target="{{ .Params.target }}">{{ .Title }}</a></li>
+                        {{ else }}
+                        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                        {{ end }}
+                    {{ end }}
+                  </ul>
+              {{ else }}
+                {{ if .Params.excludeFromTopNav }}
+                    {{/* Do nothing */}}
+                {{ else if and (isset .Params "link") (ne .Params.link "") }}
+                    <li><a href="{{ .Params.link | relURL }}" target="{{ .Params.target }}">{{ .Title }}</a></li>
+                {{ else }}
+                    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                {{ end }}
+              {{ end  }}
+            </li>
+            {{ end }} --->
+            
+            
             {{ range where (where .Site.Pages.ByWeight ".Type" "page") ".IsPage" true }}
                 {{ if .Params.excludeFromTopNav }}
                     {{/* Do nothing */}}
@@ -16,6 +44,7 @@
                     <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
                 {{ end }}
             {{ end }}
+            
         </ul>
 
         {{ if and (isset .Site.Params "algolia_search") (eq .Site.Params.algolia_search true) }}

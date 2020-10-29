@@ -9,3 +9,5 @@ My name is Alec and I was a third-year Agricultural Science student when I compl
 Read about what I learnt here!
 - **[Overall Summary](/presentations/Alec/Overall-Summary.pdf)**
 - **[Final Presentation](/presentations/Alec/Internship-Presentation.pdf)**
+
+Here is my LinkedIn profile: [Alec McCallum - LinkedIn](https://www.linkedin.com/in/alec-mccallum-5a5791165/)

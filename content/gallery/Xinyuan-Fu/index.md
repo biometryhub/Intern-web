@@ -9,3 +9,5 @@ My name is Xinyuan. I was in my third year of Bachelor of Agricultural Science w
 My internship presentation is here. Have a Look!
 
 - **[Final Presentation](/presentations/Xinyuan/Internship-Presentation.pdf)**
+
+Here is my LinkedIn Profile: [Xinyuan Fu - LinkedIn](https://www.linkedin.com/in/xinyuan-f-87121b16b/)

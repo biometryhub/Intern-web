@@ -12,3 +12,4 @@ This internship was intense but rewarding. I really enjoyed this experiecne and 
 - **[Week 3 Summary](/presentations/Zhaohan/Week-3-Summary.pdf)**
 - **[Final Presentation](/presentations/Zhaohan/Final-Presentation.pdf)**
 
+Here is my LinkedIn profile: [Zhaohan Luo - LinkedIn](https://www.linkedin.com/in/zhaohan-luo-38b29b1a5/)
