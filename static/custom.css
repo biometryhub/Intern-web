@@ -2,14 +2,41 @@
 @media only screen and (max-width: 550px) {
   .bilberry-hugo-theme article {
     border-radius: 0;
-  }
+    }
+
+  .bilberry-hugo-theme header .logo {
+    border: 3px solid #eee;
+    width: 45px;
+    height: 45px;
+    }
+
+  .bilberry-hugo-theme header .titles h3 {
+    font-size: 2.75rem;
+    }
+
+  .bilberry-hugo-theme header .titles {
+    margin-left: 1.5rem;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 551px) {
+@media only screen and (min-width: 551px) and (max-width: 800px) {
   .bilberry-hugo-theme article {
     border-radius: 0;
   }
+/*  .bilberry-hugo-theme header .logo {
+    border: 3px solid #eee;
+    width: 60px;
+    height: 60px;
+    }
+
+  .bilberry-hugo-theme header .titles h3 {
+    font-size: 2.75rem;
+    }
+
+  .bilberry-hugo-theme header .titles {
+    margin-left: 1.5rem;
+    }*/
 }
 
 /* Medium devices (landscape tablets, 768px and up) 
@@ -41,4 +68,34 @@
 
 .gform {
   height: 2500px;
+}
+
+textarea {
+    height: 150px;
+    width: 100%;
+}
+
+input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {
+    border: 3px solid #0cccc2;
+    border-radius: 4px;
+}
+
+.button, button, input[type=button], input[type=reset], input[type=submit] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #0cccc2;
+}
+
+.bilberry-hugo-theme header {
+    background-color: #a2ea5f;
+    color: #2b9a9a;
+}
+
+.bilberry-hugo-theme nav {
+    background: #1d7fc7;
+}
+
+.bilberry-hugo-theme {
+    background-color: #b8e5ff;
 }

@@ -1,7 +1,7 @@
 ---
 title: "Contact Us"
 date: 2020-10-15
-weight: 1
+weight: 6
 ---
 <div class="container">
   <form name="contact"method="POST" data-netlify="true">
