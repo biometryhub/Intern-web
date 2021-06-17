@@ -75,7 +75,7 @@ textarea {
     width: 100%;
 }
 
-input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {
+/*input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {
     border: 3px solid #0cccc2;
     border-radius: 4px;
 }
@@ -99,3 +99,4 @@ input[type=email], input[type=number], input[type=password], input[type=search],
 .bilberry-hugo-theme {
     background-color: #b8e5ff;
 }
+*/
