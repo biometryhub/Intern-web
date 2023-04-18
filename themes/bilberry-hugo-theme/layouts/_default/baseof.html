@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 {{ if eq .Type "gallery" }}
     {{ $image := (index (.Resources.ByType "image") 0 ) }}
     {{ $imageUrl := "" }}
@@ -45,8 +47,7 @@
     {{ .Scratch.Set "title" (.Title) }}
 {{- end -}}
 
-<!doctype html>
-<html class="no-js" lang="{{ .Site.Language.Lang }}">
+<html itemscope itemtype="https://schema.org/WebPage" class="no-js" lang="{{ .Site.Language.Lang }}">
 
 <head>
     <meta charset="utf-8">
@@ -65,31 +66,26 @@
            {{ end }}
         {{ end }}
     </title>
-    <meta name="description" content="{{ .Scratch.Get "description" }}">
     <meta itemprop="name" content="{{ .Scratch.Get "title" }}">
     <meta itemprop="description" content="{{ .Scratch.Get "description" }}">
-    <meta property="og:title" content="{{ .Scratch.Get "title" }}">
-    <meta property="og:description" content="{{ .Scratch.Get "description" }}">
-    <meta property="og:image" content="{{ .Scratch.Get "image" | absURL }}">
-    <meta property="og:url" content="{{ .Permalink | absURL }}">
     <meta property="og:site_name" content="{{ .Site.Title }}">
-    {{- if .IsPage }}
-    <meta property="og:type" content="article">
-    {{- else -}}
-    <meta property="og:type" content="website">
-    {{- end }}
+
+    {{ template "_internal/opengraph.html" . }}
 
     {{ partial "favicon.html" . }}
 
     <script src="{{ "modernizr-simple.js" | relURL }}"></script>
 
-    {{ if .RelPermalink }}
-    <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-    <link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
-    {{ end }}
+    {{ with .OutputFormats.Get "RSS" }}
+    <link href="{{ .Permalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+    <link href="{{ .Permalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
+    {{end}}
+
 
     {{ with .Params.original_url }}
-    <link rel=”canonical” href=”{{ . }}” />
+    <link rel="canonical" href="{{ . }}" />
+    {{ else }}
+    <link rel="canonical" href="{{ .Permalink }}">
     {{ end }}
 
     <link rel="stylesheet" href="{{ "theme.css" | absURL }}">
@@ -101,9 +97,12 @@
             <link rel="stylesheet" href="{{ . | absURL }}">
         {{ end }}
     {{ end }}
+
+    {{ partial "hooks/head-end.html" . }}
 </head>
 
 <body class="bilberry-hugo-theme">
+    {{ partial "hooks/body-start.html" . }}
 
     {{ partial "topnav.html" . }}
 
@@ -115,14 +114,23 @@
 
     {{ partial "footer.html" . }}
 
-    {{ template "_internal/google_analytics_async.html" . }}
+    {{ template "_internal/google_analytics.html" . }}
 
     {{ if and (isset .Site.Params "enable_mathjax") (eq .Site.Params.enable_mathjax true) }}
     {{ partial "mathjax.html" . }}
     {{ end }}
 
-
-    <script type="text/javascript" src="{{ "theme.js" | absURL }}"></script>
+    {{- $noMoment    := not (.Site.Params.enableMomentJs    | default true) -}}
+    {{- $noHighlight := not (.Site.Params.enableHighlightJs | default true) -}}
+    {{ if and $noMoment $noHighlight }}
+    <script src="{{ "theme-exclude-moment-and-highlight.js" | absURL }}"></script>
+    {{ else if $noMoment }}
+    <script src="{{ "theme-exclude-moment.js" | absURL }}"></script>
+    {{ else if $noHighlight }}
+    <script src="{{ "theme-exclude-highlight.js" | absURL }}"></script>
+    {{ else }}
+    <script src="{{ "theme.js" | absURL }}"></script>
+    {{ end }}
 
     {{ if isset .Site.Params "js_modules" }}
     {{ range .Site.Params.js_modules }}
@@ -133,6 +141,8 @@
     {{ if and (isset .Site.Params "algolia_search") (eq .Site.Params.algolia_search true) }}
     {{ partial "algolia-search.html" . }}
     {{ end }}
+
+    {{ partial "hooks/body-end.html" . }}
 </body>
 
 </html>

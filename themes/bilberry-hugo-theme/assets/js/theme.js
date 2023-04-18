@@ -4,9 +4,9 @@ require('flexslider');
 require('algoliasearch/dist/algoliasearch.jquery');
 require('autocomplete.js/dist/autocomplete.jquery');
 require('tooltipster');
+require('magnific-popup');
 
 let ClipboardJs = require('clipboard')
-let hljs = require('highlight.js');
 
 // Add ClipboardJs to enable copy button functionality
 new ClipboardJs('.copy-button', {
@@ -48,27 +48,28 @@ $(document).ready(function () {
         $("#search").autocomplete("val", "");
     });
 
-    // Commento support to block search focus when hitting the S key
-    blockSearchFocus = false;
-
-    $('#commento').focusin(function() {
-      blockSearchFocus = true;
-    });
-
-    $('#commento').focusout(function() {
-      blockSearchFocus = false;
-    });
-
     // Keyboard-Support
     $(document).keyup(function (e) {
-        if (e.keyCode === 27) {
-            if (!$("nav").hasClass('permanentTopNav'))
+        // Clear and/or close search on ESC
+        if (e.code === 'Escape' && $("#search")[0] == $(e.target)[0]) {
+            if (!$("nav").hasClass('permanentTopNav')) {
                 $("nav").slideUp();
-            $("#search").autocomplete("val", "");
+            }
+            $("#search").autocomplete("val", "").blur();
+            return;
         }
-        else if (e.keyCode === 83 && !blockSearchFocus) {
-            if (!$("nav").hasClass('permanentTopNav'))
+
+        // Ignore event if we're inside a input field
+        let targetType = (e.target.tagName ?? "").toLowerCase();
+        if (targetType == "textarea" || targetType == "input") {
+            return;
+        }
+
+        // Else we listen for "s" to active out search box
+        if (e.code === 'KeyS') {
+            if (!$("nav").hasClass('permanentTopNav')) {
                 $("nav").slideDown();
+            }
             $("#search").focus();
         }
     })
@@ -79,6 +80,77 @@ $(document).ready(function () {
         prevText: "",
         nextText: "",
         pauseOnHover: true,
+    });
+
+    // Magnific Popup for images within articles to zoom them
+    // Rendered with Markdown
+    $('p img, figure img').not('p a img').magnificPopup({
+        type: "image",
+        image: {
+            verticalFit: true,
+            titleSrc: 'alt'
+        },
+        zoom: {
+            enabled: true
+        },
+        callbacks: {
+            // Get the src directly from the img-tag instead of an additional tag
+            elementParse: function(item) {
+              // Function will fire for each target element
+              // "item.el" is a target DOM element (if present)
+              // "item.src" is a source that you may modify
+
+              item.src = item.el.attr('src')
+            }
+        },
+        // https://github.com/dimsemenov/Magnific-Popup/pull/1017
+        // Enabled popup only when image size is greater than content area
+        disableOn: function(e) {
+            let img = e.target;
+            return img.naturalWidth > img.clientWidth;
+        }
+    });
+
+    // Magnific Popup for images within articles to zoom them
+    // Rendered with Asciidoc
+    $('.image-block>img').magnificPopup({
+        type: "image",
+        image: {
+            verticalFit: true,
+            titleSrc: function (item) {
+                return item.el.parent().find('figcaption').text();
+            }
+        },
+        zoom: {
+            enabled: true
+        },
+        callbacks: {
+            elementParse: function(item) {
+                item.src = item.el.attr('src')
+            }
+        },
+        // https://github.com/dimsemenov/Magnific-Popup/pull/1017
+        // Enabled popup only when image size is greater than content area
+        disableOn: function(e) {
+            let img = e.target;
+            return img.naturalWidth > img.clientWidth;
+        }
+    });
+
+    // Magnific Popup for images within articles to zoom them
+    // Rendered with Asciidoc
+    $('.image-block').magnificPopup({
+        type: "image",
+        delegate: "a",
+        image: {
+            titleSrc: function (item) {
+                return item.el.parent().find('figcaption').text();
+            },
+            verticalFit: true
+        },
+        zoom: {
+            enabled: true
+        }
     });
 
     // Algolia-Search
@@ -110,7 +182,7 @@ $(document).ready(function () {
                             return "<span class='empty'>" + $('#algolia-search-noSearchResults').val() + "</span>"
                         },
                         footer: function () {
-                            return '<div class="branding">Powered by <img src="' + $('meta[name=siteBaseUrl]').attr("content") + '/algolia-logo-light.svg" /></div>'
+                            return '<div class="branding">Powered by <img src="' + $('meta[name=siteBaseUrl]').attr("content") + '/algolia-logo-light.svg" alt="algolia" /></div>'
                         }
                     },
                 }
@@ -125,5 +197,3 @@ $(document).ready(function () {
             });
     }
 });
-
-hljs.initHighlightingOnLoad();

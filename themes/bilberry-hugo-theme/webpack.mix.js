@@ -11,14 +11,48 @@ let mix = require('laravel-mix');
  |
  */
 mix.autoload({
-    jquery: ['$', 'window.jQuery', 'jQuery'],
-    moment: 'moment'
+  jquery: ['$', 'window.jQuery', 'jQuery'],
+  moment: 'moment'
 });
 
 mix.setPublicPath('./static')
-    .setResourceRoot('./')
-    .js('assets/js/theme.js', './')
-    .sass('assets/sass/theme.scss', './');
+.setResourceRoot('./')
+// MomentJS and HightlighJS are quire big and thus we create variants
+// that can be used with or without them!
+.js('assets/js/theme.js', './theme-exclude-moment-and-highlight.js')
+.js(['assets/js/theme.js', 'assets/js/moment.js'], './theme-exclude-highlight.js')
+.js(['assets/js/theme.js', 'assets/js/highlight.js'], './theme-exclude-moment.js')
+.js(['assets/js/theme.js', 'assets/js/moment.js', 'assets/js/highlight.js'], './theme.js')
+.sass('assets/sass/theme.scss', './')
+.then(() => {
+  const fs = require("fs");
+  const oldFontsPath = './static/fonts/vendor';
+  const newFontsPath = './static/fonts/_vendor';
+  const themeFile = './static/theme.css';
+
+  if (fs.existsSync(newFontsPath)) {
+    fs.rmdirSync(newFontsPath, {recursive: true, force: true});
+  }
+
+  fs.rename(oldFontsPath, newFontsPath, function (err) {
+    if (err) {
+      console.log(err)
+    }
+  })
+
+  fs.readFile(themeFile, 'utf8', function (err, data) {
+    if (err) {
+      return console.log(err);
+    }
+    let result = data.replace(/vendor/g, '_vendor');
+
+    fs.writeFile(themeFile, result, 'utf8', function (err) {
+      if (err) {
+        return console.log(err);
+      }
+    });
+  });
+});
 
 // Full API
 // mix.js(src, output);

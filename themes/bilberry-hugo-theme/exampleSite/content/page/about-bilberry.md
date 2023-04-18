@@ -1,6 +1,6 @@
 ---
 title: "About Bilberry"
-date: 2017-11-01T13:18:45+01:00
+date: 2021-11-01T13:18:45+01:00
 excludeFromTopNav: false
 showDate: false
 ---
@@ -14,7 +14,7 @@ It is full of little nice features, such as:
 - keyboard shortcut for the search (press the `s` key, type something and hit `enter` or `esc`)
 - responsive design - optimized for desktop and mobile devices
 - full internationalization (i18n) support (en, de, fr, ru, es out of the box!)
-- full mutli-language support
+- full multi-language support
 - custom post types (`article`, `audio`, `code`, `gallery`, `link`, `page`, `picture`, `quote`, `video`)
     - easy configuration to add more according to your needs
 
