@@ -2,10 +2,10 @@ title = "My cool new Blog"
 baseURL = "https://example.com/"
 
 # Option 1 (recommended): adding the theme as a Hugo module
-theme = "github.com/Lednerb/bilberry-hugo-theme/v3"
+theme = "github.com/Lednerb/bilberry-hugo-theme/v4"
 
-# Option 2: cloning/copying the theme files
-# theme = "bilberry-hugo-theme"
+# Options 2 and 3: cloning/copying the theme files
+# theme = "bilberry-hugo-theme/v4"
 
 # Generate the robots.txt file for SEO
 enableRobotsTXT = true
@@ -20,7 +20,7 @@ googleAnalytics = ""
 disqusShortname = ""
 
 [params]
-  # Custom CSS / JS modules that will be imported by the template.
+  # Custom CSS/JS modules that will be imported by the template.
   # Files are relative to the static/ directory or a URL.
   # Files are imported in the order they appear here, after
   # theme.css and theme.js, respectively.
@@ -30,7 +30,7 @@ disqusShortname = ""
   # Description and meta data for the search engines
   author = "Lednerb"
   description = "Bilberry Premium Theme for Hugo."
-  keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts"
+  keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,syntax highlighting,premium,shortcuts"
 
   # How many articles should be displayed at once?
   paginate = 7
@@ -107,14 +107,10 @@ disqusShortname = ""
     # Set to true to pin only to the first page, false to all pages
     # pinOnlyToFirstPage = true
 
-    # enable highlight.js for syntax highlighting or (if set to false) use
-    # the hugo built-in chroma highlighter
-    enableHighlightJs = true
-
-    # enable automatic localization of the article's PublishedDate with momentjs
+    # enable automatic localization of the article's published date using Moment.js
     enableMomentJs = true
 
-    # customize the date format | only works if momentjs is disabled | only works with English month names
+    # customize the date format | only works if Moment.js is disabled | only works with English month names
     # you can customize it with the options you find here:
     # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
     dateFormat = "2006-01-02"
@@ -181,7 +177,20 @@ disqusShortname = ""
     [markup.goldmark.renderer]
       # change to 'true' if you need to render raw HTML within your markdown content
       unsafe = false
-
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'monokai'
+    tabWidth = 4
   [markup.tableOfContents]
     endLevel = 5
     ordered = false
